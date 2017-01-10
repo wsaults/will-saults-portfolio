@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'marci/home'
+  get 'mountains' => 'mountains#index'
 
-  root 'users#index'
+  root 'application#index'
 end

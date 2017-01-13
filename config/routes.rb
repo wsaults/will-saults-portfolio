@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'mountains' => 'mountains#index'
+  root 'static_pages#home'
 
-  root 'application#index'
+  get 'static_pages/home'
+
+  get '/mountains' => 'static_pages#mountains', as: :mountains
 end

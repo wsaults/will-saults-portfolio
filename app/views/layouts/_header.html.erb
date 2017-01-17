@@ -1,11 +1,28 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
   <div class="container">
-    <%= link_to "will saults", home_path, id: "logo" %>
-    <nav>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">Will Saults</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <!--<li><%= link_to "Home",   '#' %></li>-->
-        <%= link_to image_tag("mountains_icon.png", alt: "Mountains", id: "mountains"), mountains_path %>
+        <li class="">
+          <a class="page-scroll" href="#download">Download</a>
+        </li>
+        <li class="">
+          <a class="page-scroll" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
       </ul>
-    </nav>
+    </div>
+    <!-- /.navbar-collapse -->
   </div>
-</header>
+  <!-- /.container-fluid -->
+</nav>

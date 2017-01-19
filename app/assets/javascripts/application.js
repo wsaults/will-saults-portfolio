@@ -15,3 +15,23 @@
 //= require jquery.easing
 //= require turbolinks
 //= require_tree .
+
+
+$(function() {
+    var featureItemFhoc = document.getElementById("feature-item-fhoc");
+    var featureItemDell = document.getElementById("feature-item-dell");
+    var featureItemGas = document.getElementById("feature-item-gas");
+    var device = document.getElementById("device-default");
+
+    featureItemFhoc.addEventListener("mouseover", function( event ) {
+        device.id = "fhoc"
+    }, false);
+
+    featureItemDell.addEventListener("mouseover", function( event ) {
+        device.id = "dell"
+    }, false);
+
+    featureItemGas.addEventListener("mouseover", function( event ) {
+        device.id = "gas"
+    }, false);
+});

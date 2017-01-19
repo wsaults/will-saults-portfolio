@@ -3,27 +3,27 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 section.cta#mountains1 {
-  background-image: url('/assets/mountains/IMG-3250.jpg');
+  background-image: image-url('/assets/mountains/IMG-3250.jpg');
 }
 
 section.cta#web-app-1 {
-  background-image: url('/assets/fhoc-web-app.jpg');
+  background-image: image-url('/assets/fhoc-web-app.jpg');
 }
 
 #device-default img {
-  content:url('/assets/fhoc-ios-app.jpeg');
+  content:image-url('/assets/fhoc-ios-app.jpeg');
 }
 
 #fhoc img {
-  content:url('/assets/fhoc-ios-app.jpeg');
+  content:image-url('/assets/fhoc-ios-app.jpeg');
 }
 
 #dell img {
-  content:url('/assets/dell-ios-app.jpeg');
+  content:image-url('/assets/dell-ios-app.jpeg');
 }
 
 #gas img {
-  content:url('/assets/gas-ios-app.jpeg');
+  content:image-url('/assets/gas-ios-app.jpeg');
 }
 
 //#gas img:last-child{display:none}

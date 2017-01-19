@@ -11,11 +11,11 @@ section.cta#web-app-1 {
 }
 
 #device-default img {
-  content:url('/assets/fhoc-ios-app.jpeg');
+  content:url('/assets/fhoc-ios-app.png');
 }
 
 #fhoc img {
-  content:url('/assets/fhoc-ios-app.jpeg');
+  content:url('/assets/fhoc-ios-app.png');
 }
 
 #dell img {
@@ -26,9 +26,21 @@ section.cta#web-app-1 {
   content:url('/assets/gas-ios-app.jpeg');
 }
 
-//#gas img:last-child{display:none}
-//#gas:hover img:first-child{display:none}
-//#gas:hover img:last-child{display:inline-block}
+#diglister img {
+  content:url('/assets/gas-ios-app.jpeg');
+}
+
+#matter img {
+  content:url('/assets/matter-ios-app.jpeg');
+}
+
+#pediaq img {
+  content:url('/assets/pediaq-ios-app.jpeg');
+}
+
+#boxer img {
+  content:url('/assets/boxer-ios-app.jpeg');
+}
 
 section.features .feature-item a {
   color: inherit;

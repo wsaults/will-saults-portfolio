@@ -21,6 +21,10 @@ $(function() {
     var featureItemFhoc = document.getElementById("feature-item-fhoc");
     var featureItemDell = document.getElementById("feature-item-dell");
     var featureItemGas = document.getElementById("feature-item-gas");
+    var featureItemDiglister = document.getElementById("feature-item-diglister");
+    var featureItemMatter = document.getElementById("feature-item-matter");
+    // var featureItemPediaQ = document.getElementById("feature-item-pediaq");
+    var featureItemBoxer = document.getElementById("feature-item-boxer");
     var device = document.getElementById("device-default");
 
     featureItemFhoc.addEventListener("mouseover", function( event ) {
@@ -33,5 +37,21 @@ $(function() {
 
     featureItemGas.addEventListener("mouseover", function( event ) {
         device.id = "gas"
+    }, false);
+
+    featureItemDiglister.addEventListener("mouseover", function( event ) {
+        device.id = "diglister"
+    }, false);
+
+    featureItemMatter.addEventListener("mouseover", function( event ) {
+        device.id = "matter"
+    }, false);
+
+    // featureItemPediaQ.addEventListener("mouseover", function( event ) {
+    //     device.id = "pediaq"
+    // }, false);
+
+    featureItemBoxer.addEventListener("mouseover", function( event ) {
+        device.id = "boxer"
     }, false);
 });

@@ -13,7 +13,7 @@ module Saults
     # -- all .rb files in that directory are automatically loaded.
 
     config.serve_static_assets = true
-    config.serve_static_files = true
     config.assets.compile = true
+    config.public_file_server.enabled = true
   end
 end

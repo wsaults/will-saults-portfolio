@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f6a6cf-8705-4d87-8c19-9a4e74f46b0b" name="Default" comment="" />
+    <list default="true" id="e4f6a6cf-8705-4d87-8c19-9a4e74f46b0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/appventures-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/bg-cta.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/bg-pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/boxer-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/boxer-ios-app.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/dell-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/dell-ios-app.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/demo-screen-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/fhoc-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/fhoc-ios-app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/fhoc-web-app.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/gas-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/gas-ios-app.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_black_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_black_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_gold_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_gold_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_white_land.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_white_port.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/matter-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/matter-ios-app.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/mountains/IMG-3220.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/mountains/IMG-3250.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/mountains_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/pediaq-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/pediaq-ios-app.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/solar-system.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/app-store-badge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/google-play-badge.svg" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +49,8 @@
       <file leaf-file-name="static_pages.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="705">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -163,6 +194,28 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saults" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saults" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -175,6 +228,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saults" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saults" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,11 +323,11 @@
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/vendor/assets" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/vendor/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/app/views/static_pages" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: saults">
@@ -476,12 +547,12 @@
       <workItem from="1484589490505" duration="40000" />
       <workItem from="1484596820552" duration="7975000" />
       <workItem from="1484692291906" duration="19324000" />
-      <workItem from="1485183082316" duration="903000" />
+      <workItem from="1485183082316" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48245000" />
+    <option name="totallyTimeSpent" value="48368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1675" height="1417" extended-state="0" />
@@ -810,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="705">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding />
         </state>
       </provider>

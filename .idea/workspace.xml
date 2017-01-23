@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4f6a6cf-8705-4d87-8c19-9a4e74f46b0b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/new-age.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/new-age.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="894">
-              <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="32" />
+            <state relative-caret-position="774">
+              <caret line="130" column="30" lean-forward="false" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-age.css.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new-age.css.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/new-age.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="466" column="24" lean-forward="false" selection-start-line="466" selection-start-column="24" selection-end-line="466" selection-end-column="24" />
+            <state relative-caret-position="481">
+              <caret line="461" column="47" lean-forward="false" selection-start-line="461" selection-start-column="34" selection-end-line="461" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -506,12 +504,12 @@
       <workItem from="1484692291906" duration="19324000" />
       <workItem from="1485183082316" duration="3802000" />
       <workItem from="1485189073499" duration="236000" />
-      <workItem from="1485191399408" duration="1715000" />
+      <workItem from="1485191399408" duration="1841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53095000" />
+    <option name="totallyTimeSpent" value="53221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1675" height="1417" extended-state="0" />
@@ -786,18 +784,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/new-age.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="32" />
+        <state relative-caret-position="481">
+          <caret line="461" column="47" lean-forward="false" selection-start-line="461" selection-start-column="34" selection-end-line="461" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/new-age.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="466" column="24" lean-forward="false" selection-start-line="466" selection-start-column="24" selection-end-line="466" selection-end-column="24" />
+        <state relative-caret-position="774">
+          <caret line="130" column="30" lean-forward="false" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="30" />
           <folding />
         </state>
       </provider>

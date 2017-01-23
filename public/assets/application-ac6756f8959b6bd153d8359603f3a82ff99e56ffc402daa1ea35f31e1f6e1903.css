@@ -6788,746 +6788,1021 @@ button.close {
  *
  *
  */
-
- /* GENERAL STYLE */
-
-
+/* GENERAL STYLE */
+/* line 37, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup {
-	position: relative;
-	width: 100%;
-	padding-bottom: 61.775701%;
+  position: relative;
+  width: 100%;
+  padding-bottom: 61.775701%;
 }
 
-	.device-mockup > .device {
-		position: absolute;
-		top: 0; bottom: 0; left: 0; right: 0;
-		width: 100%; height: 100%;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		background-image: url("macbook/macbook.png");
-	}
+/* line 43, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
+.device-mockup > .device {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url(/images/macbook/macbook.png);
+}
 
-		.device-mockup > .device > .screen {
-			position: absolute;
-			top:    11.0438729%;
-			bottom: 14.6747352%;
-			left:   13.364486%;
-			right:  13.364486%;
-			overflow: hidden;
-		}
+/* line 52, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
+.device-mockup > .device > .screen {
+  position: absolute;
+  top: 11.0438729%;
+  bottom: 14.6747352%;
+  left: 13.364486%;
+  right: 13.364486%;
+  overflow: hidden;
+}
 
-		.device-mockup > .device > .button {
-			position: absolute;
-			top: 0; left: 0;
-			display: none;
-			overflow: hidden;
-			border-radius: 100%;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-			cursor: pointer;
-		}
-
+/* line 61, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
+.device-mockup > .device > .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: hidden;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  cursor: pointer;
+}
 
 /* DEVICES */
-
-
 /* iMac */
+/* line 77, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.imac {
-	padding-bottom: 81.230769%;
+  padding-bottom: 81.230769%;
 }
 
+/* line 81, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.imac > .device {
-	background-image: url("imac/imac.png");
+  background-image: url(/images/imac/imac.png);
 }
 
+/* line 85, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.imac > .device > .screen {
-	top: 8.20707071%; bottom: 31.6919192%; left: 6.61538462%; right: 6.61538462%;
+  top: 8.20707071%;
+  bottom: 31.6919192%;
+  left: 6.61538462%;
+  right: 6.61538462%;
 }
-
 
 /* MacBook Pro */
+/* line 91, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook {
-	padding-bottom: 61.775701%;
+  padding-bottom: 61.775701%;
 }
 
+/* line 95, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook > .device {
-	background-image: url("macbook/macbook.png");
+  background-image: url(/images/macbook/macbook.png);
 }
 
+/* line 99, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook > .device > .screen {
-	top: 11.0438729%; bottom: 14.6747352%; left: 13.364486%; right: 13.364486%;
+  top: 11.0438729%;
+  bottom: 14.6747352%;
+  left: 13.364486%;
+  right: 13.364486%;
 }
 
 /* MacBook 2015 */
+/* line 104, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook_2015 {
-	padding-bottom: 57.50%;
+  padding-bottom: 57.50%;
 }
 
+/* line 108, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.grey > .device {
-	background-image: url("macbook_2015/grey.png");
+  background-image: url(/images/macbook_2015/grey.png);
 }
 
+/* line 113, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.silver > .device {
-	background-image: url("macbook_2015/silver.png");
+  background-image: url(/images/macbook_2015/silver.png);
 }
 
+/* line 118, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.gold > .device {
-	background-image: url("macbook_2015/gold.png");
+  background-image: url(/images/macbook_2015/gold.png);
 }
 
+/* line 123, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.macbook_2015 > .device > .screen {
-    top: 7.5%; bottom: 10.9%; left: 12.46%; right: 12.56%;
+  top: 7.5%;
+  bottom: 10.9%;
+  left: 12.46%;
+  right: 12.56%;
 }
-
 
 /* iPhone 5 */
+/* line 129, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5,
 .device-mockup.iphone5.portrait {
-	padding-bottom: 210.57%;
+  padding-bottom: 210.57%;
 }
 
+/* line 134, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.landscape {
-	padding-bottom: 47.49%;
+  padding-bottom: 47.49%;
 }
 
+/* line 138, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5 > .device,
 .device-mockup.iphone5.black > .device,
 .device-mockup.iphone5.portrait.black > .device {
-	background-image: url("iphone5/iphone5_port_black.png");
+  background-image: url(/images/iphone5/iphone5_port_black.png);
 }
 
+/* line 144, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.landscape > .device,
 .device-mockup.iphone5.landscape.black > .device {
-	background-image: url("iphone5/iphone5_land_black.png");
+  background-image: url(/images/iphone5/iphone5_land_black.png);
 }
 
+/* line 149, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.white > .device,
 .device-mockup.iphone5.portrait.white > .device {
-	background-image: url("iphone5/iphone5_port_white.png");
+  background-image: url(/images/iphone5/iphone5_port_white.png);
 }
 
+/* line 154, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.landscape.white > .device {
-	background-image: url("iphone5/iphone5_land_white.png");
+  background-image: url(/images/iphone5/iphone5_land_white.png);
 }
 
+/* line 158, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5 > .device > .screen,
 .device-mockup.iphone5.portrait > .device > .screen {
-    top: 14.78%; bottom: 13.78%; left: 8.77%; right: 7.77%;
+  top: 14.78%;
+  bottom: 13.78%;
+  left: 8.77%;
+  right: 7.77%;
 }
 
+/* line 163, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.landscape > .device > .screen {
-    top: 7.422488%; bottom: 8.422488%; left: 14.919127%; right: 14.019127%;
+  top: 7.422488%;
+  bottom: 8.422488%;
+  left: 14.919127%;
+  right: 14.019127%;
 }
 
+/* line 167, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5 > .device > .button,
 .device-mockup.iphone5.portrait > .device > .button {
-	display: block;
-    top: 88.3%; bottom: 2.5%; left: 40%; right: 40%;
+  display: block;
+  top: 88.3%;
+  bottom: 2.5%;
+  left: 40%;
+  right: 40%;
 }
 
+/* line 173, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone5.landscape > .device > .button {
-	display: block;
-    top: 40%; bottom: 41%; left: 88.4%; right: 2.3%;
+  display: block;
+  top: 40%;
+  bottom: 41%;
+  left: 88.4%;
+  right: 2.3%;
 }
 
 /* iPhone SE */
+/* line 179, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se,
 .device-mockup.iphone_se.portrait {
-	padding-bottom: 209.83%;
+  padding-bottom: 209.83%;
 }
 
+/* line 184, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape {
-	padding-bottom: 47.66%;
+  padding-bottom: 47.66%;
 }
 
+/* line 188, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se > .device,
 .device-mockup.iphone_se.black > .device,
 .device-mockup.iphone_se.portrait.black > .device {
-	background-image: url("iphone_se/iphone_se_port_black.png");
+  background-image: url(/images/iphone_se/iphone_se_port_black.png);
 }
 
+/* line 194, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape > .device,
 .device-mockup.iphone_se.landscape.black > .device {
-	background-image: url("iphone_se/iphone_se_land_black.png");
+  background-image: url(/images/iphone_se/iphone_se_land_black.png);
 }
 
+/* line 199, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.white > .device,
 .device-mockup.iphone_se.portrait.white > .device {
-	background-image: url("iphone_se/iphone_se_port_white.png");
+  background-image: url(/images/iphone_se/iphone_se_port_white.png);
 }
 
+/* line 204, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape.white > .device {
-	background-image: url("iphone_se/iphone_se_land_white.png");
+  background-image: url(/images/iphone_se/iphone_se_land_white.png);
 }
 
+/* line 208, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.gold > .device,
 .device-mockup.iphone_se.portrait.gold > .device {
-	background-image: url("iphone_se/iphone_se_port_gold.png");
+  background-image: url(/images/iphone_se/iphone_se_port_gold.png);
 }
 
+/* line 213, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape.gold > .device {
-	background-image: url("iphone_se/iphone_se_land_gold.png");
+  background-image: url(/images/iphone_se/iphone_se_land_gold.png);
 }
 
+/* line 217, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.rose > .device,
 .device-mockup.iphone_se.portrait.rose > .device {
-	background-image: url("iphone_se/iphone_se_port_rose.png");
+  background-image: url(/images/iphone_se/iphone_se_port_rose.png);
 }
 
+/* line 222, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape.rose > .device {
-	background-image: url("iphone_se/iphone_se_land_rose.png");
+  background-image: url(/images/iphone_se/iphone_se_land_rose.png);
 }
 
+/* line 226, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se > .device > .screen,
 .device-mockup.iphone_se.portrait > .device > .screen {
-	top: 16.28%; bottom: 16.28%; left: 11.77%; right: 11.77%;
+  top: 16.28%;
+  bottom: 16.28%;
+  left: 11.77%;
+  right: 11.77%;
 }
 
+/* line 231, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape > .device > .screen {
-	top: 11.722488%; bottom: 11.722488%; left: 16.0191273%; right: 16.0191273%;
+  top: 11.722488%;
+  bottom: 11.722488%;
+  left: 16.0191273%;
+  right: 16.0191273%;
 }
 
+/* line 235, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se > .device > .button,
 .device-mockup.iphone_se.portrait > .device > .button {
-	display: block;
-	top: 86.3%; bottom: 5.5%; left:  42%; right: 42%;
+  display: block;
+  top: 86.3%;
+  bottom: 5.5%;
+  left: 42%;
+  right: 42%;
 }
 
+/* line 241, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone_se.landscape > .device > .button {
-	display: block;
-	top: 42%; bottom: 42%; left:  86.4%; right: 5.1%;
+  display: block;
+  top: 42%;
+  bottom: 42%;
+  left: 86.4%;
+  right: 5.1%;
 }
 
 /* iPhone 6 */
+/* line 247, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6,
 .device-mockup.iphone6.portrait {
-	padding-bottom: 207.19%;
+  padding-bottom: 207.19%;
 }
 
+/* line 252, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape {
-	padding-bottom: 48.76%;
+  padding-bottom: 48.76%;
 }
 
+/* line 256, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6 > .device,
 .device-mockup.iphone6.black > .device,
 .device-mockup.iphone6.portrait.black > .device {
-	background-image: url("iphone_6/iphone_6_port_black.png");
+  background-image: url(/images/iphone_6/iphone_6_port_black.png);
 }
 
+/* line 262, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape > .device,
 .device-mockup.iphone6.landscape.black > .device {
-	background-image: url("iphone_6/iphone_6_land_black.png");
+  background-image: url(/images/iphone_6/iphone_6_land_black.png);
 }
 
+/* line 267, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.white > .device,
 .device-mockup.iphone6.portrait.white > .device {
-	background-image: url("iphone_6/iphone_6_port_white.png");
+  background-image: url(/images/iphone_6/iphone_6_port_white.png);
 }
 
+/* line 272, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape.white > .device {
-	background-image: url("iphone_6/iphone_6_land_white.png");
+  background-image: url(/images/iphone_6/iphone_6_land_white.png);
 }
 
+/* line 276, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.gold > .device,
 .device-mockup.iphone6.portrait.gold > .device {
-	background-image: url("iphone_6/iphone_6_port_gold.png");
+  background-image: url(/images/iphone_6/iphone_6_port_gold.png);
 }
 
+/* line 281, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape.gold > .device {
-	background-image: url("iphone_6/iphone_6_land_gold.png");
+  background-image: url(/images/iphone_6/iphone_6_land_gold.png);
 }
 
+/* line 285, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6 > .device > .screen,
 .device-mockup.iphone6.portrait > .device > .screen {
-	top: 12.58%; bottom: 12.88%; left: 6.77%; right: 6.77%;
+  top: 12.58%;
+  bottom: 12.88%;
+  left: 6.77%;
+  right: 6.77%;
 }
 
+/* line 290, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape > .device > .screen {
-	top: 6.77%; bottom: 6.77%; left: 12.58%; right: 12.88%;
+  top: 6.77%;
+  bottom: 6.77%;
+  left: 12.58%;
+  right: 12.88%;
 }
 
+/* line 294, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6 > .device > .button,
 .device-mockup.iphone6.portrait > .device > .button {
-	display: block;
-	top: 88.6%; bottom: 3.2%; left: 42%; right: 42%;
+  display: block;
+  top: 88.6%;
+  bottom: 3.2%;
+  left: 42%;
+  right: 42%;
 }
 
+/* line 300, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6.landscape > .device > .button {
-	display: block;
-	top: 42%; bottom: 42%; left:  88.6%; right: 3.2%;
+  display: block;
+  top: 42%;
+  bottom: 42%;
+  left: 88.6%;
+  right: 3.2%;
 }
 
 /* iPhone 6 Plus*/
+/* line 306, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus,
 .device-mockup.iphone6_plus.portrait {
-	padding-bottom: 201.76%;
+  padding-bottom: 201.76%;
 }
 
+/* line 311, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape {
-	padding-bottom: 49.56%;
+  padding-bottom: 49.56%;
 }
 
+/* line 315, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus > .device,
 .device-mockup.iphone6_plus.black > .device,
 .device-mockup.iphone6_plus.portrait.black > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_black_port.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_black_port-77683a85379fb0ed38a43820709931854c0e36ff9b38b07ffce5fe91d69c1381.png);
 }
 
+/* line 321, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape > .device,
 .device-mockup.iphone6_plus.landscape.black > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_black_land.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_black_land-658bdf3c92663605e45e7da120a4aa2afd15d8d360da0ce89c8fa35105c6ad08.png);
 }
 
+/* line 326, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.white > .device,
 .device-mockup.iphone6_plus.portrait.white > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_white_port.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_white_port-db215bf05ce80a683bc5b34d1fac04aaf939eef319ece2aa98b7a85c45ca6bc4.png);
 }
 
+/* line 331, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape.white > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_white_land.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_white_land-4467577b7ef5b41880128871c7238ad139344b27927059edf9ff5c1d4963e8a9.png);
 }
 
+/* line 335, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.gold > .device,
 .device-mockup.iphone6_plus.portrait.gold > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_gold_port.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_gold_port-30c543ba7d296afcfe39120b4988b49cd554f0b0ed640c514d3dd1e8b4c75d25.png);
 }
 
+/* line 340, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape.gold > .device {
-	background-image: url("iphone_6_plus/iphone_6_plus_gold_land.png");
+  background-image: url(/assets/iphone_6_plus/iphone_6_plus_gold_land-8f9b5a6957bd6973e1e40a5911213afce48429d1b52519c95279760c6bd1c096.png);
 }
 
+/* line 344, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus > .device > .screen,
 .device-mockup.iphone6_plus.portrait > .device > .screen {
-    top: 11.58%; bottom: 11.58%; left: 5.97%; right: 5.97%;
+  top: 11.58%;
+  bottom: 11.58%;
+  left: 5.97%;
+  right: 5.97%;
 }
 
+/* line 349, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape > .device > .screen {
-    top: 5.97%; bottom: 5.97%; left: 11.38%; right: 11.58%;
+  top: 5.97%;
+  bottom: 5.97%;
+  left: 11.38%;
+  right: 11.58%;
 }
 
+/* line 353, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus > .device > .button,
 .device-mockup.iphone6_plus.portrait > .device > .button {
-	display: block;
-    top: 89.9%; bottom: 3.2%; left: 43%; right: 43%;
+  display: block;
+  top: 89.9%;
+  bottom: 3.2%;
+  left: 43%;
+  right: 43%;
 }
 
+/* line 359, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.iphone6_plus.landscape > .device > .button {
-	display: block;
-	top: 43%; bottom: 43%; left: 89.9%; right: 3.2%;
+  display: block;
+  top: 43%;
+  bottom: 43%;
+  left: 89.9%;
+  right: 3.2%;
 }
 
 /* iPad */
+/* line 365, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad,
 .device-mockup.ipad.portrait {
-	padding-bottom: 128.406276%;
+  padding-bottom: 128.406276%;
 }
 
+/* line 370, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.landscape {
-	padding-bottom: 79.9086758%;
+  padding-bottom: 79.9086758%;
 }
 
+/* line 374, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad > .device,
 .device-mockup.ipad.black > .device,
 .device-mockup.ipad.portrait.black > .device {
-	background-image: url("ipad/ipad_port_black.png");
+  background-image: url(/images/ipad/ipad_port_black.png);
 }
 
+/* line 380, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.white > .device,
 .device-mockup.ipad.portrait.white > .device {
-	background-image: url("ipad/ipad_port_white.png");
+  background-image: url(/images/ipad/ipad_port_white.png);
 }
 
+/* line 385, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.landscape > .device,
 .device-mockup.ipad.landscape.black > .device {
-	background-image: url("ipad/ipad_land_black.png");
+  background-image: url(/images/ipad/ipad_land_black.png);
 }
 
+/* line 390, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.landscape.white > .device {
-	background-image: url("ipad/ipad_land_white.png");
+  background-image: url(/images/ipad/ipad_land_white.png);
 }
 
+/* line 394, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad > .device > .screen,
 .device-mockup.ipad.portrait > .device > .screen {
-	top: 12.025723%; bottom: 12.154341%; left: 13.45995%; right: 13.45995%;
+  top: 12.025723%;
+  bottom: 12.154341%;
+  left: 13.45995%;
+  right: 13.45995%;
 }
 
+/* line 399, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.landscape > .device > .screen {
-	top: 13.87755102%; bottom: 13.87755102%; left: 11.5459883%; right: 11.5459883%;
+  top: 13.87755102%;
+  bottom: 13.87755102%;
+  left: 11.5459883%;
+  right: 11.5459883%;
 }
 
+/* line 403, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad > .device > .button,
 .device-mockup.ipad.portrait > .device > .button {
-	display: block;
-	top: 90.2%; bottom: 5.5%; left: 47.3%; right: 47.3%;
+  display: block;
+  top: 90.2%;
+  bottom: 5.5%;
+  left: 47.3%;
+  right: 47.3%;
 }
 
+/* line 409, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad.landscape > .device > .button {
-	display: block;
-	top: 47.3%; bottom: 47.3%; left: 90.8%; right: 4.9%;
+  display: block;
+  top: 47.3%;
+  bottom: 47.3%;
+  left: 90.8%;
+  right: 4.9%;
 }
 
 /* iPad Air */
+/* line 415, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air,
 .device-mockup.ipad_air.portrait {
-	padding-bottom: 141.27%;
+  padding-bottom: 141.27%;
 }
 
+/* line 420, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.landscape {
-	padding-bottom: 70.79%;
+  padding-bottom: 70.79%;
 }
 
+/* line 424, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air > .device,
 .device-mockup.ipad_air.grey > .device,
 .device-mockup.ipad_air.portrait.grey > .device {
-	background-image: url("ipad_air/ipad_air_gray_port.png");
+  background-image: url(/images/ipad_air/ipad_air_gray_port.png);
 }
 
+/* line 430, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.silver > .device,
 .device-mockup.ipad_air.portrait.silver > .device {
-	background-image: url("ipad_air/ipad_air_silver_port.png");
+  background-image: url(/images/ipad_air/ipad_air_silver_port.png);
 }
 
+/* line 435, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.landscape > .device,
 .device-mockup.ipad_air.landscape.grey > .device {
-	background-image: url("ipad_air/ipad_air_gray_land.png");
+  background-image: url(/images/ipad_air/ipad_air_gray_land.png);
 }
 
+/* line 440, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.landscape.silver > .device {
-	background-image: url("ipad_air/ipad_air_silver_land.png");
+  background-image: url(/images/ipad_air/ipad_air_silver_land.png);
 }
 
+/* line 444, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air > .device > .screen,
 .device-mockup.ipad_air.portrait > .device > .screen {
-	top: 9.025723%; bottom: 9.154341%; left: 7.45995%; right: 6.45995%;
+  top: 9.025723%;
+  bottom: 9.154341%;
+  left: 7.45995%;
+  right: 6.45995%;
 }
 
+/* line 449, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.landscape > .device > .screen {
-    top: 6.877551%; bottom: 6.877551%; left: 9.545988%; right: 9.545988%;
+  top: 6.877551%;
+  bottom: 6.877551%;
+  left: 9.545988%;
+  right: 9.545988%;
 }
 
+/* line 453, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air > .device > .button,
 .device-mockup.ipad_air.portrait > .device > .button {
-	display: block;
-    top: 93.2%; bottom: 2.5%; left: 47.3%; right: 47.3%;
+  display: block;
+  top: 93.2%;
+  bottom: 2.5%;
+  left: 47.3%;
+  right: 47.3%;
 }
 
+/* line 459, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air.landscape > .device > .button {
-	display: block;
-	top: 47.3%; bottom: 47.3%; left: 93.1%; right: 2.1%;
+  display: block;
+  top: 47.3%;
+  bottom: 47.3%;
+  left: 93.1%;
+  right: 2.1%;
 }
 
 /* iPad Air 2 */
+/* line 465, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2,
 .device-mockup.ipad_air_2.portrait {
-    padding-bottom: 141.38%;
+  padding-bottom: 141.38%;
 }
 
+/* line 470, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape {
-	padding-bottom: 70.73%;
+  padding-bottom: 70.73%;
 }
 
+/* line 474, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2 > .device,
 .device-mockup.ipad_air_2.grey > .device,
 .device-mockup.ipad_air_2.portrait.grey > .device {
-	background-image: url("ipad_air_2/ipad_air_2_gray_port.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_gray_port.png);
 }
 
+/* line 480, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.silver > .device,
 .device-mockup.ipad_air_2.portrait.silver > .device {
-	background-image: url("ipad_air_2/ipad_air_2_silver_port.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_silver_port.png);
 }
 
+/* line 485, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.gold > .device,
 .device-mockup.ipad_air_2.portrait.gold > .device {
-	background-image: url("ipad_air_2/ipad_air_2_gold_port.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_gold_port.png);
 }
 
+/* line 490, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape > .device,
 .device-mockup.ipad_air_2.landscape.grey > .device {
-	background-image: url("ipad_air_2/ipad_air_2_gray_land.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_gray_land.png);
 }
 
+/* line 495, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape.silver > .device {
-	background-image: url("ipad_air_2/ipad_air_2_silver_land.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_silver_land.png);
 }
 
+/* line 499, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape.gold > .device {
-	background-image: url("ipad_air_2/ipad_air_2_gold_land.png");
+  background-image: url(/images/ipad_air_2/ipad_air_2_gold_land.png);
 }
 
+/* line 503, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2 > .device > .screen,
 .device-mockup.ipad_air_2.portrait > .device > .screen {
-	top: 9.025723%; bottom: 8.854341%; left: 6.15995%; right: 6.15995%;
+  top: 9.025723%;
+  bottom: 8.854341%;
+  left: 6.15995%;
+  right: 6.15995%;
 }
 
+/* line 508, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape > .device > .screen {
-    top: 6.277551%; bottom: 6.277551%; left: 8.545988%; right: 8.545988%;
+  top: 6.277551%;
+  bottom: 6.277551%;
+  left: 8.545988%;
+  right: 8.545988%;
 }
 
+/* line 512, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2 > .device > .button,
 .device-mockup.ipad_air_2.portrait > .device > .button {
-	display: block;
-    top: 93.2%; bottom: 2.1%; left: 46.3%; right: 46.5%;
+  display: block;
+  top: 93.2%;
+  bottom: 2.1%;
+  left: 46.3%;
+  right: 46.5%;
 }
 
+/* line 518, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_air_2.landscape > .device > .button {
-	display: block;
-	top: 46.5%; bottom: 46.8%; left: 93.5%; right: 1.9%;
+  display: block;
+  top: 46.5%;
+  bottom: 46.8%;
+  left: 93.5%;
+  right: 1.9%;
 }
 
 /* iPad Pro */
+/* line 524, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro,
 .device-mockup.ipad_pro.portrait {
-    padding-bottom: 138.63%;
+  padding-bottom: 138.63%;
 }
 
+/* line 529, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape {
-	padding-bottom: 72.14%;
+  padding-bottom: 72.14%;
 }
 
+/* line 533, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro > .device,
 .device-mockup.ipad_pro.grey > .device,
 .device-mockup.ipad_pro.portrait.grey > .device {
-	background-image: url("ipad_pro/ipad_pro_port_black.png");
+  background-image: url(/images/ipad_pro/ipad_pro_port_black.png);
 }
 
+/* line 539, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.silver > .device,
 .device-mockup.ipad_pro.portrait.silver > .device {
-	background-image: url("ipad_pro/ipad_pro_port_silver.png");
+  background-image: url(/images/ipad_pro/ipad_pro_port_silver.png);
 }
 
+/* line 544, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.gold > .device,
 .device-mockup.ipad_pro.portrait.gold > .device {
-	background-image: url("ipad_pro/ipad_pro_port_gold.png");
+  background-image: url(/images/ipad_pro/ipad_pro_port_gold.png);
 }
 
+/* line 549, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape > .device,
 .device-mockup.ipad_pro.landscape.grey > .device {
-	background-image: url("ipad_pro/ipad_pro_land_black.png");
+  background-image: url(/images/ipad_pro/ipad_pro_land_black.png);
 }
 
+/* line 554, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape.silver > .device {
-	background-image: url("ipad_pro/ipad_pro_land_silver.png");
+  background-image: url(/images/ipad_pro/ipad_pro_land_silver.png);
 }
 
+/* line 558, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape.gold > .device {
-	background-image: url("ipad_pro/ipad_pro_land_gold.png");
+  background-image: url(/images/ipad_pro/ipad_pro_land_gold.png);
 }
 
+/* line 562, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro > .device > .screen,
 .device-mockup.ipad_pro.portrait > .device > .screen {
-    top: 7.025723%; bottom: 6.854341%; left: 5.15995%; right: 5.15995%;
+  top: 7.025723%;
+  bottom: 6.854341%;
+  left: 5.15995%;
+  right: 5.15995%;
 }
 
+/* line 567, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape > .device > .screen {
-    top: 5.177551%; bottom: 5.177551%; left: 6.945988%; right: 6.945988%;
+  top: 5.177551%;
+  bottom: 5.177551%;
+  left: 6.945988%;
+  right: 6.945988%;
 }
 
+/* line 571, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro > .device > .button,
 .device-mockup.ipad_pro.portrait > .device > .button {
-	display: block;
-    top: 94.9%; bottom: 1.5%; left: 47.3%; right: 47.1%;
+  display: block;
+  top: 94.9%;
+  bottom: 1.5%;
+  left: 47.3%;
+  right: 47.1%;
 }
 
+/* line 577, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.ipad_pro.landscape > .device > .button {
-	display: block;
-    top: 47.5%; bottom: 47.5%; left: 94.8%; right: 1.5%;
+  display: block;
+  top: 47.5%;
+  bottom: 47.5%;
+  left: 94.8%;
+  right: 1.5%;
 }
-
 
 /* Galaxy S3 */
+/* line 584, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3,
 .device-mockup.galaxy_s3.portrait {
-	padding-bottom: 178.787879%;
+  padding-bottom: 178.787879%;
 }
 
+/* line 589, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3.landscape {
-	padding-bottom: 55.9322034%;
+  padding-bottom: 55.9322034%;
 }
 
+/* line 593, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3 > .device,
 .device-mockup.galaxy_s3.black > .device,
 .device-mockup.galaxy_s3.portrait.black > .device {
-	background-image: url("galaxy_s3/s3_port_black.png");
+  background-image: url(/images/galaxy_s3/s3_port_black.png);
 }
 
+/* line 599, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3.landscape > .device,
 .device-mockup.galaxy_s3.landscape.black > .device {
-	background-image: url("galaxy_s3/s3_land_black.png");
+  background-image: url(/images/galaxy_s3/s3_land_black.png);
 }
 
+/* line 604, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3.white > .device,
 .device-mockup.galaxy_s3.portrait.white > .device {
-	background-image: url("galaxy_s3/s3_port_white.png");
+  background-image: url(/images/galaxy_s3/s3_port_white.png);
 }
 
+/* line 609, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3.landscape.white > .device {
-	background-image: url("galaxy_s3/s3_land_white.png");
+  background-image: url(/images/galaxy_s3/s3_land_white.png);
 }
 
+/* line 613, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3 > .device > .screen,
 .device-mockup.galaxy_s3.portrait > .device > .screen {
-	top: 12.3728814%; bottom: 15.5367232%; left: 13.8383838%; right: 13.8383838%;
+  top: 12.3728814%;
+  bottom: 15.5367232%;
+  left: 13.8383838%;
+  right: 13.8383838%;
 }
 
+/* line 618, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s3.landscape > .device > .screen {
-	top: 13.8383838%; bottom: 13.8383838%; left: 12.3728814%; right: 15.5367232%;
+  top: 13.8383838%;
+  bottom: 13.8383838%;
+  left: 12.3728814%;
+  right: 15.5367232%;
 }
-
 
 /* Galaxy S5 */
+/* line 624, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5,
 .device-mockup.galaxy_s5.portrait {
   padding-bottom: 194.188862%;
 }
 
+/* line 629, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5.landscape {
   padding-bottom: 51.496259%;
 }
 
+/* line 633, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5 > .device,
 .device-mockup.galaxy_s5.black > .device,
 .device-mockup.galaxy_s5.portrait.black > .device {
-  background-image: url("galaxy_s5/galaxy_s5_port_black.png");
+  background-image: url(/images/galaxy_s5/galaxy_s5_port_black.png);
 }
 
+/* line 639, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5.landscape > .device,
 .device-mockup.galaxy_s5.landscape.black > .device {
-  background-image: url("galaxy_s5/galaxy_s5_land_black.png");
+  background-image: url(/images/galaxy_s5/galaxy_s5_land_black.png);
 }
 
+/* line 644, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5.white > .device,
 .device-mockup.galaxy_s5.portrait.white > .device {
-  background-image: url("galaxy_s5/galaxy_s5_port_white.png");
+  background-image: url(/images/galaxy_s5/galaxy_s5_port_white.png);
 }
 
+/* line 649, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5.landscape.white > .device {
-  background-image: url("galaxy_s5/galaxy_s5_land_white.png");
+  background-image: url(/images/galaxy_s5/galaxy_s5_land_white.png);
 }
 
+/* line 653, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5 > .device > .screen,
 .device-mockup.galaxy_s5.portrait > .device > .screen {
-  top: 10.2%; bottom: 10.1%; left: 6.3%; right: 6.4%;
+  top: 10.2%;
+  bottom: 10.1%;
+  left: 6.3%;
+  right: 6.4%;
 }
 
+/* line 658, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_s5.landscape > .device > .screen {
-  top: 6.6%; bottom: 6.2%; left: 10.15%; right: 10%;
+  top: 6.6%;
+  bottom: 6.2%;
+  left: 10.15%;
+  right: 10%;
 }
-
 
 /* Galaxy Tab4 */
+/* line 664, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_tab4,
 .device-mockup.galaxy_tab4.landscape {
   padding-bottom: 72.689464%;
 }
 
+/* line 669, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_tab4 > .device,
 .device-mockup.galaxy_tab4.black > .device,
 .device-mockup.galaxy_tab4.landscape.black > .device {
-  background-image: url("galaxy_tab4/galaxy_tab4_land_black.png");
+  background-image: url(/images/galaxy_tab4/galaxy_tab4_land_black.png);
 }
 
+/* line 675, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_tab4.white > .device,
 .device-mockup.galaxy_tab4.landscape.white > .device {
-  background-image: url("galaxy_tab4/galaxy_tab4_land_white.png");
+  background-image: url(/images/galaxy_tab4/galaxy_tab4_land_white.png);
 }
 
+/* line 680, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.galaxy_tab4 > .device > .screen,
 .device-mockup.galaxy_tab4.landscape > .device > .screen {
-  top: 11.5%; bottom: 11.5%; left: 5.4%; right: 5.2%;
+  top: 11.5%;
+  bottom: 11.5%;
+  left: 5.4%;
+  right: 5.2%;
 }
-
 
 /* Lumia 920 */
+/* line 687, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920,
 .device-mockup.lumia920.portrait {
-	padding-bottom: 172.796353%;
+  padding-bottom: 172.796353%;
 }
 
+/* line 692, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920.landscape {
-	padding-bottom: 56.3330381%;
+  padding-bottom: 56.3330381%;
 }
 
+/* line 696, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920 > .device,
 .device-mockup.lumia920.portrait > .device {
-	background-image: url("lumia920/lumia920_port.png");
+  background-image: url(/images/lumia920/lumia920_port.png);
 }
 
+/* line 701, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920.landscape > .device {
-	background-image: url("lumia920/lumia920_land.png");
+  background-image: url(/images/lumia920/lumia920_land.png);
 }
+
+/* line 704, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920 > .device > .screen,
 .device-mockup.lumia920.portrait > .device > .screen {
-	top: 10.6420405%; bottom: 18.9973615%; left: 13.5258359%; right: 13.5258359%;
+  top: 10.6420405%;
+  bottom: 18.9973615%;
+  left: 13.5258359%;
+  right: 13.5258359%;
 }
 
+/* line 709, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.lumia920.landscape > .device > .screen {
-	top: 12.2641509%; bottom: 12.2641509%; left: 10.5403012%; right: 18.6005314%;
+  top: 12.2641509%;
+  bottom: 12.2641509%;
+  left: 10.5403012%;
+  right: 18.6005314%;
 }
-
 
 /* Nexus 7 */
+/* line 715, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7,
 .device-mockup.nexus7.portrait {
-	padding-bottom: 156.521739%;
+  padding-bottom: 156.521739%;
 }
 
+/* line 720, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7.landscape {
-	padding-bottom: 63.6678201%;
+  padding-bottom: 63.6678201%;
 }
 
+/* line 724, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7 > .device,
 .device-mockup.nexus7.portrait > .device {
-	background-image: url("nexus7/nexus7_port.png");
+  background-image: url(/images/nexus7/nexus7_port.png);
 }
 
+/* line 729, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7.landscape > .device {
-	background-image: url("nexus7/nexus7_land.png");
+  background-image: url(/images/nexus7/nexus7_land.png);
 }
 
+/* line 733, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7 > .device > .screen,
 .device-mockup.nexus7.portrait > .device > .screen {
-	top: 13.1365741%; bottom: 12.7893519%; left: 13.7681159%; right: 13.7681159%;
+  top: 13.1365741%;
+  bottom: 12.7893519%;
+  left: 13.7681159%;
+  right: 13.7681159%;
 }
 
+/* line 738, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.nexus7.landscape > .device > .screen {
-	top: 13.7681159%; bottom: 13.7681159%; left: 13.0911188%; right: 13.0911188%;
+  top: 13.7681159%;
+  bottom: 13.7681159%;
+  left: 13.0911188%;
+  right: 13.0911188%;
 }
-
 
 /* Microsoft Surface */
+/* line 744, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.surface,
 .device-mockup.surface.landscape {
-	padding-bottom: 64.7584973%;
+  padding-bottom: 64.7584973%;
 }
 
+/* line 749, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.surface > .device,
 .device-mockup.surface.landscape > .device {
-	background-image: url("surface/surface.png");
+  background-image: url(/images/surface/surface.png);
 }
 
+/* line 754, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.surface > .device > .screen,
 .device-mockup.surface.landscape > .device > .screen {
-	top: 14.5488029%; bottom: 14.9171271%; left: 9.36195587%; right: 9.36195587%;
+  top: 14.5488029%;
+  bottom: 14.9171271%;
+  left: 9.36195587%;
+  right: 9.36195587%;
 }
 
 /* Samsung TV */
+/* line 760, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.samsung_tv,
 .device-mockup.samsung_tv.landscape {
-	padding-bottom: 64.68%;
+  padding-bottom: 64.68%;
 }
 
+/* line 765, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.samsung_tv > .device,
 .device-mockup.samsung_tv.landscape > .device {
-	background-image: url("samsung_tv/samsung_tv.png");
+  background-image: url(/images/samsung_tv/samsung_tv.png);
 }
 
+/* line 770, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/device-mockups.css.scss */
 .device-mockup.samsung_tv > .device > .screen,
 .device-mockup.samsung_tv.landscape > .device > .screen {
-    top: 2.148803%; bottom: 12.817127%; left: 1.261956%; right: 1.361956%;
+  top: 2.148803%;
+  bottom: 12.817127%;
+  left: 1.261956%;
+  right: 1.361956%;
 }
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
@@ -9734,565 +10009,655 @@ button.close {
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+/* line 7, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .heading-font {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
+/* line 13, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .body-font {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+/* line 17, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .alt-font {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
+/* line 23, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 html,
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
+/* line 29, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 body {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+/* line 33, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
-    color: #fdcc52;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #fdcc52;
 }
 
+/* line 40, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 a:hover,
 a:focus {
-    color: #fcbd20;
+  color: #fcbd20;
 }
 
+/* line 45, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 hr {
-    max-width: 100px;
-    margin: 25px auto 0;
-    border-width: 1px;
-    border-color: rgba(34, 34, 34, 0.1);
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
 }
 
+/* line 52, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 hr.light {
-    border-color: white;
+  border-color: white;
 }
 
+/* line 56, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
+/* line 67, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
+/* line 73, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default {
-    background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
+/* line 84, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .navbar-header .navbar-brand {
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
-    color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #fdcc52;
 }
 
+/* line 91, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #fcbd20;
+  color: #fcbd20;
 }
 
+/* line 96, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .navbar-header .navbar-toggle {
-    font-size: 12px;
-    color: #222222;
-    padding: 8px 10px;
+  font-size: 12px;
+  color: #222222;
+  padding: 8px 10px;
 }
 
+/* line 102, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .nav > li > a {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 11px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
 }
 
+/* line 109, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-    color: #222222;
+  color: #222222;
 }
 
+/* line 114, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-    color: #fdcc52;
+  color: #fdcc52;
 }
 
+/* line 119, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-    color: #fdcc52 !important;
-    background-color: transparent;
+  color: #fdcc52 !important;
+  background-color: transparent;
 }
 
+/* line 125, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  /* line 131, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default {
     background-color: transparent;
-}
+    border-color: transparent;
+  }
 
-@media (min-width: 768px) {
-    .navbar-default {
-        background-color: transparent;
-        border-color: transparent;
-    }
+  /* line 136, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
 
-    .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255, 255, 255, 0.7);
-    }
-
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: white;
-    }
-
-    .navbar-default .nav > li > a,
-    .navbar-default .nav > li > a:focus {
-        color: rgba(255, 255, 255, 0.7);
-    }
-
-    .navbar-default .nav > li > a:hover,
-    .navbar-default .nav > li > a:focus:hover {
-        color: white;
-    }
-
-    .navbar-default.affix {
-        background-color: white;
-        border-color: rgba(34, 34, 34, 0.1);
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand {
-        color: #222222;
-    }
-
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #fdcc52;
-    }
-
-    .navbar-default.affix .nav > li > a,
-    .navbar-default.affix .nav > li > a:focus {
-        color: #222222;
-    }
-
-    .navbar-default.affix .nav > li > a:hover,
-    .navbar-default.affix .nav > li > a:focus:hover {
-        color: #fdcc52;
-    }
-}
-
-header {
-    position: relative;
-    width: 100%;
-    min-height: 85%;
-    overflow-y: hidden;
-    background: url("/assets/bg-pattern.png"), #7b4397;
-    /* fallback for old browsers */
-    background: url("/assets/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: url("/assets/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* line 140, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
+  }
+
+  /* line 145, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* line 150, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+
+  /* line 155, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.1);
+  }
+
+  /* line 160, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #222222;
+  }
+
+  /* line 164, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #fdcc52;
+  }
+
+  /* line 169, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+
+  /* line 174, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #fdcc52;
+  }
+}
+/* line 180, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+header {
+  position: relative;
+  width: 100%;
+  min-height: 85%;
+  overflow-y: hidden;
+  background: url(/assets/bg-pattern-369e2fea2fdb00eb15301e187e55aa4e7cf4854dc7b665f43b874093c10cddd7.png), #7b4397;
+  /* fallback for old browsers */
+  background: url(/assets/bg-pattern-369e2fea2fdb00eb15301e187e55aa4e7cf4854dc7b665f43b874093c10cddd7.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: url(/assets/bg-pattern-369e2fea2fdb00eb15301e187e55aa4e7cf4854dc7b665f43b874093c10cddd7.png), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
 }
 
+/* line 194, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .header-content {
-    text-align: center;
-    padding: 150px 0 50px;
-    position: relative;
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
 }
 
+/* line 200, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .header-content .header-content-inner {
-    position: relative;
-    max-width: 500px;
-    margin: 0 auto;
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
+/* line 206, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .header-content .header-content-inner h1 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 
+/* line 212, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .header-content .header-content-inner .list-badges {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
+/* line 216, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .header-content .header-content-inner .list-badges img {
-    height: 50px;
-    margin-bottom: 25px;
+  height: 50px;
+  margin-bottom: 25px;
 }
 
+/* line 221, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .device-container {
-    max-width: 300px;
-    margin: 0 auto 100px;
+  max-width: 300px;
+  margin: 0 auto 100px;
 }
 
+/* line 226, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 header .device-container .screen img {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 @media (min-width: 768px) {
-    header {
-        min-height: 85%;
-    }
+  /* line 231, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header {
+    min-height: 85%;
+  }
 
-    header .header-content {
-        text-align: left;
-        padding: 0;
-        height: 80vh;
-    }
+  /* line 235, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 80vh;
+  }
 
-    header .header-content .header-content-inner {
-        max-width: none;
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  /* line 241, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-    header .header-content .header-content-inner h1 {
-        font-size: 35px;
-    }
+  /* line 249, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
 
-    header .device-container {
-        max-width: none;
-        max-height: calc(0vh);
-        margin: 100px auto 0;
-    }
+  /* line 253, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
 }
-
 @media (min-width: 992px) {
-    header .header-content .header-content-inner h1 {
-        font-size: 50px;
-    }
+  /* line 261, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
 }
-
+/* line 266, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
+/* line 270, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section h2 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
+/* line 274, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.download {
-    padding: 150px 0;
-    position: relative;
+  padding: 150px 0;
+  position: relative;
 }
 
+/* line 279, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.download h2 {
-    margin-top: 0;
-    font-size: 50px;
+  margin-top: 0;
+  font-size: 50px;
 }
 
+/* line 284, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.download .badges .badge-link {
-    display: block;
-    margin-bottom: 25px;
+  display: block;
+  margin-bottom: 25px;
 }
 
+/* line 289, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.download .badges .badge-link:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
+/* line 293, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.download .badges .badge-link img {
-    height: 60px;
+  height: 60px;
 }
 
 @media (min-width: 768px) {
-    section.download .badges .badge-link {
-        display: inline-block;
-        margin-bottom: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    section.download h2 {
-        font-size: 70px;
-    }
-}
-
-section.features .section-heading {
-    margin-bottom: 100px;
-}
-
-section.features .section-heading h2 {
-    margin-top: 0;
-}
-
-section.features .section-heading p {
+  /* line 298, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.download .badges .badge-link {
+    display: inline-block;
     margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 305, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+/* line 310, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+section.features .section-heading {
+  margin-bottom: 100px;
 }
 
+/* line 314, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+
+/* line 318, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+
+/* line 322, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.features .device-container,
 section.features .feature-item {
-    max-width: 300px;
-    margin: 0 auto;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
+/* line 328, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.features .device-container {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
-    section.features .device-container {
-        margin-bottom: 0;
-    }
+  /* line 333, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.features .device-container {
+    margin-bottom: 0;
+  }
 }
-
+/* line 338, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.features .feature-item {
-    text-align: center;
-    margin-bottom: 100px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
+/* line 343, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.features .feature-item h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
+/* line 347, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.features .feature-item i {
-    font-size: 80px;
-    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: linear-gradient(to left, #7b4397, #dc2430);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 992px) {
-    section.features .device-container,
-    section.features .feature-item {
-        max-width: none;
-    }
+  /* line 356, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: none;
+  }
 }
-
+/* line 362, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.cta {
-    position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-image: url('/assets/bg-cta.jpg');
-    padding: 50px 0;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url(/assets/bg-cta-d888728c4369190f2e867bfe7d48d044062118eed1a2741faf845413d67d76b8.jpg);
+  padding: 50px 0;
 }
 
 @media (min-width: 768px) {
-    section.cta {
-        padding: 250px 0;
-    }
+  /* line 374, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.cta {
+    padding: 250px 0;
+  }
 }
-
+/* line 379, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.cta .cta-content {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
+/* line 384, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.cta .cta-content h2 {
-    margin-top: 0;
-    margin-bottom: 25px;
-    color: white;
-    max-width: 450px;
-    font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
 }
 
+/* line 392, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.cta .cta-content h3 {
-    margin-bottom: 25px;
-    color: white;
+  margin-bottom: 25px;
+  color: white;
 }
 
 @media (min-width: 768px) {
-    section.cta .cta-content h2 {
-        font-size: 80px;
-    }
+  /* line 398, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
 }
-
+/* line 403, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.cta .overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
+/* line 412, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact {
-    text-align: center;
+  text-align: center;
 }
 
+/* line 416, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact h2 {
-    margin-top: 0;
-    margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
+/* line 421, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact h2 i {
-    color: #dd4b39;
+  color: #dd4b39;
 }
 
+/* line 425, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
+/* line 429, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li a {
-    display: block;
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    font-size: 40px;
-    border-radius: 100%;
-    color: white;
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
 }
 
+/* line 439, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-twitter a {
-    background-color: #1da1f2;
+  background-color: #1da1f2;
 }
 
+/* line 443, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-twitter a:hover {
-    background-color: #0d95e8;
+  background-color: #0d95e8;
 }
 
+/* line 447, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-facebook a {
-    background-color: #3b5998;
+  background-color: #3b5998;
 }
 
+/* line 451, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-facebook a:hover {
-    background-color: #344e86;
+  background-color: #344e86;
 }
 
+/* line 455, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-google-plus a {
-    background-color: #dd4b39;
+  background-color: #dd4b39;
 }
 
+/* line 459, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-google-plus a:hover {
-    background-color: #d73925;
+  background-color: #d73925;
 }
 
+/* line 463, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-linkedin a {
-    background-color: #0077B5;
+  background-color: #0077B5;
 }
 
+/* line 467, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 section.contact ul.list-social li.social-linkedin a:hover {
-    background-color: #000;
+  background-color: #000;
 }
 
+/* line 471, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 footer {
-    background-color: #222222;
-    padding: 25px 0;
-    color: rgba(255, 255, 255, 0.3);
-    text-align: center;
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
 }
 
+/* line 478, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 footer p {
-    font-size: 12px;
-    margin: 0;
+  font-size: 12px;
+  margin: 0;
 }
 
+/* line 483, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 footer ul {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
+/* line 487, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 footer ul li a {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
 }
 
+/* line 492, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 footer ul li a:hover,
 footer ul li a:focus,
 footer ul li a:active,
 footer ul li a.active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+/* line 499, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .bg-primary {
-    background: #fdcc52;
-    background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539);
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
 }
 
+/* line 505, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .text-primary {
-    color: #fdcc52;
+  color: #fdcc52;
 }
 
+/* line 509, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .no-gutter > [class*='col-'] {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
+/* line 514, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .btn-outline {
-    color: white;
-    border-color: white;
-    border: 1px solid;
+  color: white;
+  border-color: white;
+  border: 1px solid;
 }
 
+/* line 520, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    color: white;
-    background-color: #fdcc52;
-    border-color: #fdcc52;
+  color: white;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
 }
 
+/* line 529, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .btn {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
 }
 
+/* line 536, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 .btn-xl {
-    padding: 15px 45px;
-    font-size: 11px;
+  padding: 15px 45px;
+  font-size: 11px;
 }
 
+/* line 541, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 ::-moz-selection {
-    color: white;
-    text-shadow: none;
-    background: #222222;
+  color: white;
+  text-shadow: none;
+  background: #222222;
 }
 
+/* line 547, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 ::selection {
-    color: white;
-    text-shadow: none;
-    background: #222222;
+  color: white;
+  text-shadow: none;
+  background: #222222;
 }
 
+/* line 553, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 img::selection {
-    color: white;
-    background: transparent;
+  color: white;
+  background: transparent;
 }
 
+/* line 558, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 img::-moz-selection {
-    color: white;
-    background: transparent;
+  color: white;
+  background: transparent;
 }
 
+/* line 563, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/new-age.css.scss */
 body {
-    webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #222222;
 }
 @font-face {
   font-family: 'simple-line-icons';
@@ -11092,7 +11457,7 @@ section.cta#web-app-1 {
 
 /* line 29, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/static_pages.scss */
 #diglister img {
-  content: url(/gas-ios-app.jpeg);
+  content: url(/assets/gas-ios-app-e62c3e19f1d05a25c86495da9f70ee01df4a4121e9afe6ddc3db5ebce7c24c68.jpg);
 }
 
 /* line 33, /Users/wilsau/Documents/repos/saults/app/assets/stylesheets/static_pages.scss */

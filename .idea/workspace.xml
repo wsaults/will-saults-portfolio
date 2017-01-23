@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f6a6cf-8705-4d87-8c19-9a4e74f46b0b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/.keep" afterPath="$PROJECT_DIR$/vendor/assets/images/.keep" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/app-store-badge.svg" afterPath="$PROJECT_DIR$/vendor/assets/images/app-store-badge.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/appventures-icon.png" afterPath="$PROJECT_DIR$/vendor/assets/images/appventures-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/bg-cta.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/bg-cta.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/bg-pattern.png" afterPath="$PROJECT_DIR$/vendor/assets/images/bg-pattern.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/boxer-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/boxer-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/boxer-ios-app.jpeg" afterPath="$PROJECT_DIR$/vendor/assets/images/boxer-ios-app.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/dell-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/dell-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/dell-ios-app.jpeg" afterPath="$PROJECT_DIR$/vendor/assets/images/dell-ios-app.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/demo-screen-1.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/demo-screen-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/fhoc-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/fhoc-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/fhoc-ios-app.png" afterPath="$PROJECT_DIR$/vendor/assets/images/fhoc-ios-app.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/fhoc-web-app.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/fhoc-web-app.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/gas-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/gas-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/gas-ios-app.jpeg" afterPath="$PROJECT_DIR$/vendor/assets/images/gas-ios-app.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/google-play-badge.svg" afterPath="$PROJECT_DIR$/vendor/assets/images/google-play-badge.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_black_land.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_black_land.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_black_port.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_black_port.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_gold_land.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_gold_land.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_gold_port.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_gold_port.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_white_land.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_white_land.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/iphone_6_plus/iphone_6_plus_white_port.png" afterPath="$PROJECT_DIR$/vendor/assets/images/iphone_6_plus/iphone_6_plus_white_port.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/matter-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/matter-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/matter-ios-app.jpeg" afterPath="$PROJECT_DIR$/vendor/assets/images/matter-ios-app.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/mountains/IMG-3220.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/mountains/IMG-3220.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/mountains/IMG-3250.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/mountains/IMG-3250.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/mountains_icon.png" afterPath="$PROJECT_DIR$/vendor/assets/images/mountains_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/pediaq-icon.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/pediaq-icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/pediaq-ios-app.jpeg" afterPath="$PROJECT_DIR$/vendor/assets/images/pediaq-ios-app.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/assets/images/solar-system.jpg" afterPath="$PROJECT_DIR$/vendor/assets/images/solar-system.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/saults.iml" afterPath="$PROJECT_DIR$/.idea/saults.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" />
-    </list>
+    <list default="true" id="e4f6a6cf-8705-4d87-8c19-9a4e74f46b0b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,24 +175,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saults" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saults" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,16 +476,16 @@
       <workItem from="1484589490505" duration="40000" />
       <workItem from="1484596820552" duration="7975000" />
       <workItem from="1484692291906" duration="19324000" />
-      <workItem from="1485183082316" duration="741000" />
+      <workItem from="1485183082316" duration="903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48083000" />
+    <option name="totallyTimeSpent" value="48245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1675" height="1417" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24372321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -547,7 +495,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11324944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11324944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
